@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LNDRLNDRLNDR</title>
+    <meta name="author" content="LNDRLNDRLNDR">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="LNDRLNDRLNDR maker of CARL, BARL and Custom Rocket League Overlay HUD">
+    <meta name="keywords"
+          content="Rocket League, LNDRLNDRLNDR, CARL, BARL">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="icon.ico">
+    <link rel="apple-touch-icon" href="icon.ico"/>
+
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            background: transparent;
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            margin: 0;
+        }
+
+        html {
+            background: linear-gradient(to right, #182848, #4b6cb7, #182848);
+            margin: 0;
+        }
+
+        body {
+        <!-- padding-left: 50 px;
+        --> <!-- padding-right: 50 px;
+        --> display: flex;
+            flex-flow: column;
+
+        }
+
+        main {
+            width: min(90%, 700px);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        h1 {
+            font-weight: 900;
+            margin-bottom: 0;
+        }
+
+        header {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .video_box {
+            margin-top: 35px;
+            margin-bottom: 35px;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            flex-flow: column;
+        }
+
+        iframe {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .custom-btn {
+            background-color: #f44336;
+        }
+
+        .discord-svg {
+            margin-right: 15px;
+            width: 25px;
+            height: 25px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        #scroll-to-top {
+            position: fixed;
+            bottom: 1rem;
+            right: 1rem;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        #scroll-to-top.show {
+            opacity: 1;
+        }
+
+        header, footer {
+            width: 100%;
+            background-color: black;
+            font-size: 22px;
+        }
+
+        footer ul li {
+            color: white;
+            font-size: 20px;
+            margin-left: 15px;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        header ul, footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        header li {
+            padding-left: 25px;
+            padding-right: 25px;
+            height: 40px;
+        }
+
+        header li a {
+            display: block;
+            /*padding: 14px 25px 10px 25px;*/
+            text-transform: uppercase;
+            color: #6696fe !important;
+            text-decoration: none !important;
+            font-size: 24px;
+            /*margin: 20px;*/
+            font-weight: 300;
+            transition: all .25s;
+            border-bottom: 3px solid transparent;
+        }
+
+        header li.active a {
+            display: block;
+            /*padding: 14px 25px 10px 25px;*/
+            text-transform: uppercase;
+            color: #f44336 !important;
+            text-decoration: none !important;
+            font-size: 24px;
+            /*margin: 20px;*/
+            font-weight: 300;
+            transition: all .25s;
+            border-bottom: 3px solid #f44336;
+        }
+
+        header li a:hover {
+            display: block;
+            /*padding: 14px 25px 10px 25px;*/
+            text-transform: uppercase;
+            color: #f8982d !important;
+            text-decoration: none !important;
+            font-size: 24px;
+            /*margin: 20px;*/
+            font-weight: 300;
+            transition: all .25s;
+            border-bottom: 3px solid #f8982d;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <ul>
+        <li class="active" title="Personal Site">
+            <a href="https://lndrlndr.github.io/lndrlndrlndr">LNDR</a>
+        </li>
+        <li title="CARL: Analysis Tool for Rocket League">
+            <a href="https://lndrlndr.github.io/">CARL</a>
+        </li>
+        <li title="BARL: Broadcast Assistant for Rocket League">
+            <a href="https://lndrlndr.github.io/BARL-Overlay/">BARL</a>
+        </li>
+        <li title="Overlay Portfolio">
+            <a href="https://lndrlndr.github.io/portfolio/">OVERLAYS</a>
+        </li>
+        <!--        <li><a href="https://lndrlndr.github.io/overlays/">CLIENTS</a></li>-->
+        <li title="Check out my Twitter">
+            <a target="_blank" href="https://x.com/LNDRLNDRLNDR">TWITTER</a>
+        </li>
+        <li title="Send me an Email">
+            <a target="_blank" href="mailto:lndr.overlays@gmail.com">EMAIL</a>
+        </li>
+        <li title="Join the BARL Discord server">
+            <a target="_blank" href="https://discord.gg/qF5FkJxNdR">DISCORD</a>
+        </li>
+    </ul>
+</header>
+
+<main>
+    <h1>LNDRLNDRLNDR</h1>
+
+    <h2>Projects</h2>
+    <h3>CARL: Analysis Tool for Rocket League</h3>
+    <div class="video_box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-87BwjSeSgI?autoplay=1"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+    </div>
+    <p>CARL (short for "Coaching Analysis tool for Rocket League") is a free Rocket League analysis tool designed to
+        help players understand the game in more depth.
+        Whether you're a casual player, a competitive pro, a caster, a coach, an observer,.. CARL can provide
+        valuable insights into your gameplay that can help you improve your skills.
+    </p>
+    <a href="https://lndrlndr.github.io/" target="_blank" class="waves-effect waves-light btn custom-btn"
+       rel="nofollow">
+        <div>Learn more</div>
+    </a>
+
+    <h3>BARL: Broadcast Assistant for Rocket League</h3>
+    <div class="video_box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qtbg9ZSGW6w?autoplay=1"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+    </div>
+    <p>
+        BARL is the leading broadcasting tool specially designed to enhance your Rocket League streaming experience.
+        With our state-of-the-art free overlay, comprehensive customization options, and seamless installation process,
+        BARL empowers you to take your streaming to the next level, providing an unmatched viewing experience for your
+        audience and elevating your brand as a tournament and esports broadcaster.
+    </p>
+    <a href="https://lndrlndr.github.io/BARL-Overlay/" target="_blank" class="waves-effect waves-light btn custom-btn"
+       rel="nofollow">
+        <div>Learn more</div>
+    </a>
+
+
+    <h3>Custom Dynamic Broadcasting Overlay for Rocket League</h3>
+    <div class="video_box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T_GBebE8DJE?autoplay=1"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+    </div>
+    <p>
+        By adding a dynamic overlay to your stream, you can create a more professional and engaging viewing experience
+        for your audience. The overlay will display key information about the match, including the score, timer, and
+        team names, so viewers always know what's happening. And because the overlay is fully automated, it frees up the
+        casters to focus on the gameplay, rather than worrying about the technical details of the stream.
+    </p>
+    <a href="https://lndrlndr.github.io/portfolio/" target="_blank" class="waves-effect waves-light btn custom-btn"
+       rel="nofollow">
+        <div>Learn more</div>
+    </a>
+
+
+    <div style="height: 35px;"></div>
+</main>
+
+<a id="scroll-to-top" href="#" class="btn-floating btn-large waves-effect waves-light red">
+    <i class="material-icons">arrow_upward</i>
+</a>
+
+<footer>
+    <ul>
+        Contact:
+        <li title="Follow me on Twitter">
+            Twitter: <a target="_blank" href="https://x.com/LNDRLNDRLNDR">@LNDRLNDRLNDR</a>
+        </li>
+        <li title="Send me an Email">
+            Email: <a target="_blank" href="mailto:lndr.overlays@gmail.com">lndr.overlays@gmail.com</a>
+        </li>
+        <li title="Talk to me on Discord">
+            Discord: <a target="_blank" href="https://discord.gg/qF5FkJxNdR">lndrlndrlndr</a>
+        </li>
+    </ul>
+</footer>
+</body>
+<script>
+  const scrollToTopButton = document.querySelector('#scroll-to-top');
+
+  window.addEventListener('scroll', () => {
+    const currentScroll = window.pageYOffset;
+    const main = document.querySelector('main');
+    const mainPosition = main.offsetTop;
+
+    if (currentScroll > mainPosition) {
+      scrollToTopButton.classList.add('show');
+    } else {
+      scrollToTopButton.classList.remove('show');
+    }
+  });
+
+  scrollToTopButton.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
+</script>
+</html>
