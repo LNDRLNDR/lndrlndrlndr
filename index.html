@@ -6,9 +6,9 @@
     <meta name="author" content="LNDRLNDRLNDR">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-          content="LNDRLNDRLNDR maker of CARL, BARL and Custom Rocket League Overlay HUD">
+          content="LNDRLNDRLNDR maker of CARL, BARL and Custom Rocket League Overlay HUD.">
     <meta name="keywords"
-          content="Rocket League, LNDRLNDRLNDR, CARL, BARL">
+          content="Rocket League, LNDRLNDRLNDR, CARL, BARL, LNDR, Overlay, HUD.">
     <meta name="p:domain_verify" content="f9235e8d4ac7973badf98b7c3b505007"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -41,7 +41,7 @@
         }
 
         html {
-            background: #f5f5f5;
+            background: #f3f6fc;
             margin: 0;
         }
 
@@ -59,12 +59,10 @@
 
         h1 {
             font-weight: 900;
-            margin-bottom: 0;
-            font-size: 36px;
-        }
-
-        h2 {
-            font-size: 42px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            font-size: 2.75rem;
+            text-align: center;
         }
 
         header {
@@ -73,36 +71,6 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-        }
-
-        .video_box {
-            margin-top: 35px;
-            margin-bottom: 35px;
-            display: flex;
-            justify-content: start;
-            align-items: start;
-            flex-flow: column;
-        }
-
-        iframe {
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .custom-btn {
-            /*background-color: #f44336;*/
-            position: relative;
-            left: 50%;
-            transform: translateX(-50%);
-            margin-bottom: 35px;
-        }
-
-        .discord-svg {
-            margin-right: 15px;
-            width: 25px;
-            height: 25px;
-            margin-top: auto;
-            margin-bottom: auto;
         }
 
         #scroll-to-top {
@@ -141,7 +109,8 @@
             justify-content: center;
             row-gap: 30px;
         }
-        .video_box iframe{
+
+        .video_box iframe {
             width: min(90%, 560px);
             height: 315px;
         }
@@ -191,6 +160,60 @@
             border-bottom: 3px solid #f8982d;
         }
 
+        .my_card {
+            background-color: #d3e3fd;
+            color: #041e49;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5rem;
+            border-radius: 24px;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .my_card h2 {
+            /*background: linear-gradient(90deg,#cf8d7c,#a77cb4);*/
+            /*-webkit-background-clip: text;*/
+            /*background-clip: text;*/
+            /*color: transparent;*/
+            /*-webkit-text-fill-color: transparent;*/
+            color: #1f1f1f;
+
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-top: 0;
+        }
+
+        .my_card .video_box {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            flex-flow: column;
+        }
+
+        iframe {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .my_card .custom-btn {
+            background-color: #6696fe;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .my_card .custom-btn:hover {
+            background-color: #f77f30;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+
     </style>
 </head>
 <body>
@@ -204,7 +227,7 @@
         </li>
 
 
-        <li class="active"  title="Home"><a href="https://lndrlndr.github.io/lndrlndrlndr">
+        <li class="active" title="Home"><a href="https://lndrlndr.github.io/lndrlndrlndr">
             <img style="height: 50px; width: 50px; border-radius: 50%; transform: translateY(-5px)"
                  alt="LNDRLNDRLNDR" src="https://lndrlndr.github.io/lndrlndrlndr/icon.png"/> </a>
         </li>
@@ -221,67 +244,74 @@
 <main>
     <h1>LNDRLNDRLNDR - Projects</h1>
 
-    <h2>Custom Dynamic Broadcasting Overlay for Rocket League</h2>
-    <div class="video_box">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/T_GBebE8DJE"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+    <div class="my_card">
+        <h2>Custom Dynamic Broadcasting Overlay for Rocket League</h2>
+        <div class="video_box">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/T_GBebE8DJE"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+        </div>
+        <p>
+            By adding a dynamic overlay to your stream, you can create a more professional and engaging viewing
+            experience
+            for your audience. The overlay will display key information about the match, including the score, timer, and
+            team names, so viewers always know what's happening. And because the overlay is fully automated, it frees up
+            the
+            casters to focus on the gameplay, rather than worrying about the technical details of the stream.
+        </p>
+        <a href="https://lndrlndr.github.io/portfolio/" class="waves-effect waves-light btn custom-btn"
+           style="display: flex; width: fit-content">
+            <i class="material-icons" style="margin-right: 7px">open_in_new</i>
+            <div>Learn more</div>
+        </a>
     </div>
-    <p>
-        By adding a dynamic overlay to your stream, you can create a more professional and engaging viewing experience
-        for your audience. The overlay will display key information about the match, including the score, timer, and
-        team names, so viewers always know what's happening. And because the overlay is fully automated, it frees up the
-        casters to focus on the gameplay, rather than worrying about the technical details of the stream.
-    </p>
-    <a href="https://lndrlndr.github.io/portfolio/" class="waves-effect waves-light btn custom-btn"
-       rel="nofollow" style="display: flex; width: fit-content">
-        <i class="material-icons" style="margin-right: 7px">open_in_new</i>
-        <div>Learn more</div>
-    </a>
-    
-    <h2>BARL: Broadcast Assistant for Rocket League</h2>
-    <div class="video_box">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/qtbg9ZSGW6w"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+
+    <div class="my_card">
+        <h2>BARL: Broadcast Assistant for Rocket League</h2>
+        <div class="video_box">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qtbg9ZSGW6w"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+        </div>
+        <p>
+            BARL is the leading broadcasting tool specially designed to enhance your Rocket League streaming experience.
+            With our state-of-the-art free overlay, comprehensive customization options, and seamless installation
+            process,
+            BARL empowers you to take your streaming to the next level, providing an unmatched viewing experience for
+            your
+            audience and elevating your brand as a tournament and esports broadcaster.
+        </p>
+        <a href="https://lndrlndr.github.io/BARL-Overlay/" class="waves-effect waves-light btn custom-btn"
+           style="display: flex; width: fit-content">
+            <i class="material-icons" style="margin-right: 7px">open_in_new</i>
+            <div>Learn more</div>
+        </a>
     </div>
-    <p>
-        BARL is the leading broadcasting tool specially designed to enhance your Rocket League streaming experience.
-        With our state-of-the-art free overlay, comprehensive customization options, and seamless installation process,
-        BARL empowers you to take your streaming to the next level, providing an unmatched viewing experience for your
-        audience and elevating your brand as a tournament and esports broadcaster.
-    </p>
-    <a href="https://lndrlndr.github.io/BARL-Overlay/" class="waves-effect waves-light btn custom-btn"
-       rel="nofollow" style="display: flex; width: fit-content">
-        <i class="material-icons" style="margin-right: 7px">open_in_new</i>
-        <div>Learn more</div>
-    </a>
-    
-    <h2>CARL: Analysis Tool for Rocket League</h2>
-    <div class="video_box">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-87BwjSeSgI"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+
+    <div class="my_card">
+        <h2>CARL: Analysis Tool for Rocket League</h2>
+        <div class="video_box">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-87BwjSeSgI"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+        </div>
+        <p>CARL (short for "Coaching Analysis tool for Rocket League") is a free Rocket League analysis tool designed to
+            help players understand the game in more depth.
+            Whether you're a casual player, a competitive pro, a caster, a coach, an observer,.. CARL can provide
+            valuable insights into your gameplay that can help you improve your skills.
+        </p>
+        <a href="https://lndrlndr.github.io/" class="waves-effect waves-light btn custom-btn"
+           style="display: flex; width: fit-content">
+            <i class="material-icons" style="margin-right: 7px">open_in_new</i>
+            <div>Learn more</div>
+        </a>
     </div>
-    <p>CARL (short for "Coaching Analysis tool for Rocket League") is a free Rocket League analysis tool designed to
-        help players understand the game in more depth.
-        Whether you're a casual player, a competitive pro, a caster, a coach, an observer,.. CARL can provide
-        valuable insights into your gameplay that can help you improve your skills.
-    </p>
-    <a href="https://lndrlndr.github.io/" class="waves-effect waves-light btn custom-btn"
-       rel="nofollow" style="display: flex; width: fit-content">
-        <i class="material-icons" style="margin-right: 7px">open_in_new</i>
-        <div>Learn more</div>
-    </a>
-
-
-
 
 
     <div style="height: 35px;"></div>
@@ -295,13 +325,13 @@
     <ul>
         Contact:
         <li title="Follow me on Twitter">
-            Twitter: <a target="_blank" href="https://x.com/LNDRLNDRLNDR">@LNDRLNDRLNDR</a>
+            Twitter: <a target="_blank" href="https://x.com/LNDRLNDRLNDR" rel="nofollow">@LNDRLNDRLNDR</a>
         </li>
         <li title="Send me an Email">
-            Email: <a target="_blank" href="mailto:lndr.overlays@gmail.com">lndr.overlays@gmail.com</a>
+            Email: <a target="_blank" href="mailto:lndr.overlays@gmail.com" rel="nofollow">lndr.overlays@gmail.com</a>
         </li>
         <li title="Talk to me on Discord">
-            Discord: <a target="_blank" href="https://discord.gg/qF5FkJxNdR">lndrlndrlndr</a>
+            Discord: <a target="_blank" href="https://discord.gg/qF5FkJxNdR" rel="nofollow">lndrlndrlndr</a>
         </li>
     </ul>
 </footer>
