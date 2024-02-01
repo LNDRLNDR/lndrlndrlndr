@@ -6,48 +6,58 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://lndrlndr.github.io/lndrlndrlndr/</loc>
-  <lastmod>2023-11-19T10:26:13+00:00</lastmod>
-  <priority>1.00</priority>
+  <lastmod>2024-01-31T10:48:20+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://lndrlndr.github.io/</loc>
-  <lastmod>2023-10-07T18:00:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2024-01-31T10:48:20+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://lndrlndr.github.io/BARL-Overlay/</loc>
-  <lastmod>2023-10-22T12:19:15+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2024-01-31T10:48:20+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://lndrlndr.github.io/portfolio/</loc>
-  <lastmod>2023-11-13T19:30:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://lndrlndr.github.io/Contact/</loc>
-  <lastmod>2023-10-07T18:04:55+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2024-01-31T10:48:20+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://lndrlndr.github.io/overlays/</loc>
-  <lastmod>2023-10-07T17:49:03+00:00</lastmod>
+  <lastmod>2024-01-31T10:48:20+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://lndrlndr.github.io/RL-HUD/</loc>
-  <lastmod>2023-11-19T10:48:20+00:00</lastmod>
+  <lastmod>2024-01-31T10:48:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lndrlndr.github.io/RLCS-Overlay/</loc>
+  <lastmod>2024-01-31T10:48:20+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://lndrlndr.github.io/BARL/</loc>
-  <lastmod>2023-11-19T10:48:20+00:00</lastmod>
+  <lastmod>2024-01-31T10:48:20+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://lndrlndr.github.io/BARL/designs.html</loc>
-  <lastmod>2023-11-19T11:48:20+00:00</lastmod>
+  <lastmod>2024-01-31T10:48:20+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lndrlndr.github.io/Contact/</loc>
+  <lastmod>2024-01-31T10:48:20+00:00</lastmod>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>https://lndrlndr.github.io/BARL/index_fr.html</loc>
+  <lastmod>2024-01-31T10:48:20+00:00</lastmod>
+  <priority>0.1</priority>
 </url>
 
 
