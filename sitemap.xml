@@ -6,27 +6,27 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://lndrlndr.github.io/lndrlndrlndr/</loc>
-  <lastmod>2025-03-10T10:48:20+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2025-03-10T10:12:33+00:00</lastmod>
+  <priority>0.5</priority>
 </url>
 <url>
   <loc>https://lndrlndr.github.io/</loc>
-  <lastmod>2025-03-10T10:48:20+00:00</lastmod>
+  <lastmod>2025-03-10T10:12:46+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://lndrlndr.github.io/BARL-Overlay/</loc>
-  <lastmod>2024-01-31T10:48:20+00:00</lastmod>
+  <lastmod>2024-02-01T14:09:41+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://lndrlndr.github.io/portfolio/</loc>
-  <lastmod>2024-01-31T10:48:20+00:00</lastmod>
+  <lastmod>2024-02-01T14:09:14+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://lndrlndr.github.io/overlays/</loc>
-  <lastmod>2024-01-31T10:48:20+00:00</lastmod>
+  <lastmod>2024-02-01T14:08:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -36,7 +36,7 @@
 </url>
 <url>
   <loc>https://lndrlndr.github.io/RLCS-Overlay/</loc>
-  <lastmod>2024-06-02T10:48:20+00:00</lastmod>
+  <lastmod>2024-05-03T15:06:51+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -56,8 +56,18 @@
 </url>
 <url>
   <loc>https://lndrlndr.github.io/Contact/</loc>
-  <lastmod>2024-01-31T10:48:20+00:00</lastmod>
+  <lastmod>2024-02-01T14:09:27+00:00</lastmod>
   <priority>0.1</priority>
+</url>
+<url>
+  <loc>https://lndrlndr.github.io/CARL2_App/</loc>
+  <lastmod>2025-03-11T09:40:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://lndrlndr.github.io/BARL_App/</loc>
+  <lastmod>2025-03-11T09:40:12+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
