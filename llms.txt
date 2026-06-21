@@ -21,4 +21,4 @@
 
 ## Optional
 
-- [Sitemap](https://lndrlndr.github.io/lndrlndrlndr/sitemap.xml): Full sitemap of all LNDRLNDRLNDR web properties
+- [Sitemap](https://lndrlndr.github.io/sitemap.xml): Full sitemap of all LNDRLNDRLNDR web properties
